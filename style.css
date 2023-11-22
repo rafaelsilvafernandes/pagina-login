@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: black;
     background-image: url(img/photo.jpg);
     height: 89vh;
     background-position: center center;

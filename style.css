@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: lightblue;
+    background-image: url(img/photo.avif);
+    height: 89vh;
+    background-position: center center;
+    background-size: cover;
 }
 
 #page {

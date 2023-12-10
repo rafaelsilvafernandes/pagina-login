@@ -25,8 +25,12 @@ body {
     box-shadow: 0px 0px 5px black;
 }
 
-@media screen {
-    
+@media screen and (max-width:450px) {
+    #page {
+        width: 100%;
+        margin-top: 0px;
+        
+    }
 }
 
 #camp {
@@ -44,7 +48,7 @@ a {
 h1 {
     text-align: center;
     padding: 15px 0px 15px 0px;
-    font-size: 7vh;
+    font-size: 200%;
 }
 
 p {

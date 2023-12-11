@@ -25,12 +25,26 @@ body {
 
 @media screen and (max-width:450px) {
     #page {
-        width: 84%;
+        width: 85%;
         margin-top: 0;
         height: 102.6%;
     }
-    input{
+    
+    body {
+        background-color: white;
+        height: 91vh;
+        width: 100%;
+    }
+
+    input {
         max-width: 250px;
+    }
+
+    div#camp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
     }
 }
 
@@ -40,10 +54,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 35px 0px 15px 0px;
-}
-
-@media screen and (max-width:450px) {
-    
 }
 
 a {
@@ -58,6 +68,7 @@ h1 {
 
 p {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 input {
@@ -81,16 +92,14 @@ button {
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    transition: all linear 160ms;    
+    transition: all linear 160ms;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 button:hover {
     transform: scale(1.05);
     background-color: #ff0676;
 }
-
